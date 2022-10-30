@@ -11,7 +11,12 @@ const ProfileSection = props => {
     return(
         <div className='profileContainer'>
             <div className="profileImage">
-                <img src={picture} id='profile_img'/>
+                <img src={picture} id='profile_img' alt='profile'/>
+                <div className="share">
+                    <div className="tooltip-text">
+                        <span>Share Link</span>
+                    </div>
+                </div>
             </div>
             <div className="name">
                 <h3 id="twitter">{ twitterUsername }</h3>

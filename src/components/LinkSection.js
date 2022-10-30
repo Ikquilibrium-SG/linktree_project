@@ -1,15 +1,15 @@
 import React from 'react'
-// import { Button } from 'reactstrap'
 
 const LinkSection = props => {
     const {
         name,
-        link
+        link,
+        title
     } = props
 
     return(
-        <div className='links'>
-            <a href={link}>{ name }</a>
+        <div className='links' >
+            <a href={link} title={title}>{ name }</a>
         </div>
 
     )

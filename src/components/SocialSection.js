@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LogoSection = props => {
+const SocialSection = props => {
     const {
         src1,
         src2,
@@ -18,4 +18,4 @@ const LogoSection = props => {
     )
 }
 
-export default LogoSection
+export default SocialSection

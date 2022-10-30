@@ -2,7 +2,7 @@ import React from 'react'
 import ProfileSection from './components/ProfileSection';
 import picture from './components/images/img4.jpg'
 import LinkSection from './components/LinkSection';
-import LogoSection from './components/LogoSection';
+import SocialSection from './components/SocialSection';
 import slackLogo from './components/images/slack.png'
 import githubLogo from './components/images/github.png'
 import Footer from './components/Footer';
@@ -25,28 +25,32 @@ function App() {
         name='Twitter link'
         link='https://www.twitter.com/ikquilibrium'
         />
-        <LinkSection id='btn_zuri'
+        <LinkSection id='btn__zuri'
         name='Zuri Team'
         link= 'https://training.zuri.team/'
         />
         <LinkSection id='books'
         name='Zuri Books'
-        link='#'
+        link='http://books.zuri.team'
+        title='Handpicked books and customized guides to help you grow and advance your tech careers.'
         />
-        <LinkSection id='book_python'
+        <LinkSection id='book__python'
         name='Python Books'
         link='https://books.zuri.team/python-for-beginners?ref_id=<ikquilibrium>'
-        />
+        title='Get more knowledge about advance topics in this books'
+        /> 
         <LinkSection id='pitch'
         name='Background Checks for Coders'
         link='https://background.zuri.team'
+        title=''
         />
-        <LinkSection id='book_design'
+        <LinkSection id='book__design'
         name='Design Books'
         link='https://books.zuri.team/design-rules'
+        title='This design book which is FREE was written with the intention to help designers create professionals designs'
         />
 
-        <LogoSection
+        <SocialSection
         src1={slackLogo}
         link='https://github.com/Ikquilibrium-SG'
         src2={githubLogo}
