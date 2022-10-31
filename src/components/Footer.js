@@ -15,7 +15,7 @@ const Footer = props => {
             <div className="footer-end">
                 <img src={src1} alt="zuri logo" id='zuri-logo'/>
                 <p>HNG Internship 9 Frontend Task</p>
-                <img src={src2} alt="HNG logo" id='hng-logo'/>
+                <img src={src2} alt="Ingressive for Good (HNG) logo" id='hng-logo'/>
             </div>
         </div>
     )

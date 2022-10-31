@@ -9,7 +9,9 @@ const SocialSection = props => {
 
     return(
         <div className="logos">
-            <img src={src1} alt="slack logo" />
+            <a href="https://app.slack.com">
+                <img src={src1} alt="slack logo" />
+            </a>
             <a href={link}>
                 <img src={src2} alt="github logo" />
             </a>
